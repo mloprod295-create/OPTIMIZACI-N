@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260522235001RKE4DC</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260522235001D0WRXY</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>OPTIMIZACIÓN DE FUNCIONES</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_subtitle</key>
+    <value>APLICACIÓN DE LAS DERIVADAS A LOS PROBLEMAS DE OPTIMIZACIÓN</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>MANUEL LÓPEZ RODRÍGUEZ</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Cómo aplicar las derivadas a la resolución de problemas de optimización de diversa índole</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1779485903205</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>SdA: OPTIMIZACIÓN DE FUNCIONES</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>SdA: OPTIMIZACIÓN DE FUNCIONES</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>SdA: OPTIMIZACIÓN DE FUNCIONES</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779473997019-k7z5shpor</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>INDICE</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>INDICE</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779473997019-k7z5shpor</odePageId>
+      <odeBlockId>block-1779474053378-flbcqv0dn</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName>book</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779473997019-k7z5shpor</odePageId>
+          <odeBlockId>block-1779474053378-flbcqv0dn</odeBlockId>
+          <odeIdeviceId>idevice-1779474053375-rsyryo9ah</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>1. DESCRIPCIÓN DEL PROYECTO.</p>
+<p>2. PROTECCIÓN DE DATOS PERSONALES Y DERECHOS DIGITALES.</p>
+<p>3. CURACIÓN DE CONTENIDOS.</p>
+<p>4. EL PRODUCTO FINAL.</p>
+<p>5. LÍNEA TEMPORAL.</p>
+<p>6. ACTIVIDADES Y TAREAS.</p>
+<p>7. EVALUACIÓN.</p>
+<p>          7.1. CRITERIOS DE EVALUACIÓN.</p>
+<p>           7.2. INSTRUMENTOS DE EVALUACIÓN.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779474053375-rsyryo9ah","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>1. DESCRIPCIÓN DEL PROYECTO.</p>\n<p>2. PROTECCIÓN DE DATOS PERSONALES Y DERECHOS DIGITALES.</p>\n<p>3. CURACIÓN DE CONTENIDOS.</p>\n<p>4. EL PRODUCTO FINAL.</p>\n<p>5. LÍNEA TEMPORAL.</p>\n<p>6. ACTIVIDADES Y TAREAS.</p>\n<p>7. EVALUACIÓN.</p>\n<p>          7.1. CRITERIOS DE EVALUACIÓN.</p>\n<p>           7.2. INSTRUMENTOS DE EVALUACIÓN.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779474432507-b7sajh09f</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>DESCRIPCIÓN DEL PROYECTO.</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>DESCRIPCIÓN DEL PROYECTO.</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779474432507-b7sajh09f</odePageId>
+      <odeBlockId>block-1779474491280-lhwuzdmai</odeBlockId>
+      <blockName>QUÉ VAMOS A HACER</blockName>
+      <iconName>draw</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779474432507-b7sajh09f</odePageId>
+          <odeBlockId>block-1779474491280-lhwuzdmai</odeBlockId>
+          <odeIdeviceId>idevice-1779474491272-3a29vstj1</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <ul>
+<li><strong>Centro de interés o temática</strong>: Esta situación de aprendizaje tiene como objetivo evaluar la adquisición de algunas de las competencias específicas de la materia de  Matemáticas II a través de los saberes básicos, y sus criterios de evaluación, que hacen referencia a la Aplicación de la Derivada de Funciones.</li>
+<li><strong>Nivel al que va dirigido:</strong>  Alumnos de 2º de Bachillerato de la modalidad de Ciencias y Tecnología.</li>
+<li><strong>Temporalización aproximada:</strong> 12 sesiones distribuidas a lo largo de 3 semanas. <br /></li>
+<li><strong>Idioma:</strong> Español.<br /></li>
+<li><strong>Descripción general</strong>: El objetivo principal es que el alumnado asimile y comprenda las aplicaciones de las derivadas. Para ello se emplea una metodología activa, participativa y motivadora, convirtiendo al alumno en centro de su aprendizaje. 
+<p>Iniciamos con una actividad de gamificación mediante Kahoot!, que permite evaluar los conocimientos previos del alumnado sobre funciones y derivadas. A partir de los resultados obtenidos, se desarrolla una secuencia didáctica centrada en el uso de las derivadas para analizar y resolver problemas reales.<br />¿Qué se pretende que el alumnado aprenda?  Comprender el significado de la derivada, aplicar derivadas al estudio de funciones, resolver problemas de optimización, interpretar resultados en contexto<br />Por último el alumnado realizará una tarea final competencial, en la que el a deberá resolver un problema de optimización contextualizado, justificando todo el proceso.</p>
+</li>
+<li>
+<p></p>
+<strong>Justificación:</strong> Esta SdA pretende facilitar la comprensión de los conceptos relacionados con las Aplicación de las Derivadas de funciones. 
+<p>Por tanto esta SdA se fundamenta en la necesidad de:<br />Partir del nivel real del alumnado (evaluación inicial), Favorecer el aprendizaje significativo, Conectar las matemáticas con la realidad<br />Además el enfoque hacia la optimización permite desarrollar competencias clave como: Resolución de problemas, el pensamiento crítico o la aplicación práctica de las matemáticas<br />Además, se integra la tecnología de forma pedagógica, alineándose con la competencia digital docente y del alumnado. Y desarrolla la competencia STEM y el Pensamiento Computacional.</p>
+<br /><br /></li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779474491272-3a29vstj1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<ul>\n<li><strong>Centro de interés o temática</strong>: Esta situación de aprendizaje tiene como objetivo evaluar la adquisición de algunas de las competencias específicas de la materia de  Matemáticas II a través de los saberes básicos, y sus criterios de evaluación, que hacen referencia a la Aplicación de la Derivada de Funciones.</li>\n<li><strong>Nivel al que va dirigido:</strong>  Alumnos de 2º de Bachillerato de la modalidad de Ciencias y Tecnología.</li>\n<li><strong>Temporalización aproximada:</strong> 12 sesiones distribuidas a lo largo de 3 semanas. <br /></li>\n<li><strong>Idioma:</strong> Español.<br /></li>\n<li><strong>Descripción general</strong>: El objetivo principal es que el alumnado asimile y comprenda las aplicaciones de las derivadas. Para ello se emplea una metodología activa, participativa y motivadora, convirtiendo al alumno en centro de su aprendizaje. \n<p>Iniciamos con una actividad de gamificación mediante Kahoot!, que permite evaluar los conocimientos previos del alumnado sobre funciones y derivadas. A partir de los resultados obtenidos, se desarrolla una secuencia didáctica centrada en el uso de las derivadas para analizar y resolver problemas reales.<br />¿Qué se pretende que el alumnado aprenda?  Comprender el significado de la derivada, aplicar derivadas al estudio de funciones, resolver problemas de optimización, interpretar resultados en contexto<br />Por último el alumnado realizará una tarea final competencial, en la que el a deberá resolver un problema de optimización contextualizado, justificando todo el proceso.</p>\n</li>\n<li>\n<p></p>\n<strong>Justificación:</strong> Esta SdA pretende facilitar la comprensión de los conceptos relacionados con las Aplicación de las Derivadas de funciones. \n<p>Por tanto esta SdA se fundamenta en la necesidad de:<br />Partir del nivel real del alumnado (evaluación inicial), Favorecer el aprendizaje significativo, Conectar las matemáticas con la realidad<br />Además el enfoque hacia la optimización permite desarrollar competencias clave como: Resolución de problemas, el pensamiento crítico o la aplicación práctica de las matemáticas<br />Además, se integra la tecnología de forma pedagógica, alineándose con la competencia digital docente y del alumnado. Y desarrolla la competencia STEM y el Pensamiento Computacional.</p>\n<br /><br /></li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779478103776-0qkuaj0zp</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>LICENCIAS Y SEGURIDAD</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>LICENCIAS Y SEGURIDAD</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779478103776-0qkuaj0zp</odePageId>
+      <odeBlockId>block-1779478402877-y3wcydg9l</odeBlockId>
+      <blockName>PROTEGER LA IDENTIDAD DIGITAL</blockName>
+      <iconName>passport</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779478103776-0qkuaj0zp</odePageId>
+          <odeBlockId>block-1779478402877-y3wcydg9l</odeBlockId>
+          <odeIdeviceId>idevice-1779478402867-f49h8hb1s</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div style="width: 100%;">
+<div style="position: relative; padding-bottom: 200%; padding-top: 0; height: 0;"><iframe width="800" height="1600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" title="LICENCIAS Y SEGURIDAD" frameborder="0" src="https://view.genially.com/69f8d4469de7a1d331860c2a" type="text/html" allowscriptaccess="always" allowfullscreen="allowfullscreen" scrolling="yes" allownetworking="all" data-mce-fragment="1"></iframe></div>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779478402867-f49h8hb1s","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div style=\"width: 100%;\">\n<div style=\"position: relative; padding-bottom: 200%; padding-top: 0; height: 0;\"><iframe width=\"800\" height=\"1600\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" title=\"LICENCIAS Y SEGURIDAD\" frameborder=\"0\" src=\"https://view.genially.com/69f8d4469de7a1d331860c2a\" type=\"text/html\" allowscriptaccess=\"always\" allowfullscreen=\"allowfullscreen\" scrolling=\"yes\" allownetworking=\"all\" data-mce-fragment=\"1\"></iframe></div>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779481093447-ul67t02y1</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>PRODUCTO FINAL</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>PRODUCTO FINAL</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779481093447-ul67t02y1</odePageId>
+      <odeBlockId>block-1779481115533-0w9a9sgpj</odeBlockId>
+      <blockName>QUÉ VAMOS A HACER</blockName>
+      <iconName>arts</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779481093447-ul67t02y1</odePageId>
+          <odeBlockId>block-1779481115533-0w9a9sgpj</odeBlockId>
+          <odeIdeviceId>idevice-1779481115528-2gh3w7g7z</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>El producto final de esta SdA va a consistir en la presentación, resolución y explicación, por parte de los alumnos agrupados por parejas, a sus compañeros de un problema de optimización que ellos mismos inventen o bien que modifiquen de alguno que ellos hayan encontrado. Tendrán para ello que exponerlo en clase, presentando el enunciado del problema y posteriormente su solución, todo ello con su explicación correspondiente como si estuvieses ellos dando una clase de la materia. Pueden ser problemas de minimizar o maximizar áreas, volúmenes, medidas de longitud, etc., o sobre minimizar costes, maximizar beneficios, o cualquier otra temática que los alumnos vean interesante como para plantear un problema que se preste a ser resuelto mediante un problema de optimización.</p>
+<p>Por lo que les vamos a pedir a los alumnos que utilicen las siguientes herramientas digitales:</p>
+<p>Un editor de texto, preferiblemente LIBRE OFFICE o GOOGLE DOC, que son gratuitos y tienen un buen editor de ecuaciones, para que los alumnos puedan crear sus propias expresiones de las funciones que necesiten, así como escribir con lenguaje matemático todas aquellas expresiones que les sean necesarias para la resolución de los problemas planteados.</p>
+<p>Para la presentación y exposición del problema también les dejaremos libertad para elegir la aplicación que quieran utilizar, entre CANVA, GENIALLY, o PDF modo presentación. Y para las representaciones gráficas de las funciones o de las figuras y cuerpos geométricos que vayan a utilizar se les va a recomendar que utilicen el programa GEOGEBRA.</p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779481115528-2gh3w7g7z","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El producto final de esta SdA va a consistir en la presentación, resolución y explicación, por parte de los alumnos agrupados por parejas, a sus compañeros de un problema de optimización que ellos mismos inventen o bien que modifiquen de alguno que ellos hayan encontrado. Tendrán para ello que exponerlo en clase, presentando el enunciado del problema y posteriormente su solución, todo ello con su explicación correspondiente como si estuvieses ellos dando una clase de la materia. Pueden ser problemas de minimizar o maximizar áreas, volúmenes, medidas de longitud, etc., o sobre minimizar costes, maximizar beneficios, o cualquier otra temática que los alumnos vean interesante como para plantear un problema que se preste a ser resuelto mediante un problema de optimización.</p>\n<p>Por lo que les vamos a pedir a los alumnos que utilicen las siguientes herramientas digitales:</p>\n<p>Un editor de texto, preferiblemente LIBRE OFFICE o GOOGLE DOC, que son gratuitos y tienen un buen editor de ecuaciones, para que los alumnos puedan crear sus propias expresiones de las funciones que necesiten, así como escribir con lenguaje matemático todas aquellas expresiones que les sean necesarias para la resolución de los problemas planteados.</p>\n<p>Para la presentación y exposición del problema también les dejaremos libertad para elegir la aplicación que quieran utilizar, entre CANVA, GENIALLY, o PDF modo presentación. Y para las representaciones gráficas de las funciones o de las figuras y cuerpos geométricos que vayan a utilizar se les va a recomendar que utilicen el programa GEOGEBRA.</p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779479224450-esdwdttyh</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>LÍNEA TEMPORAL</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>LÍNEA TEMPORAL</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>LÍNEA TEMPORAL</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779479224450-esdwdttyh</odePageId>
+      <odeBlockId>block-1779479542002-c1o5e955p</odeBlockId>
+      <blockName>DISTRIBUCIÓN DE TIEMPOS Y TAREAS DE LA SdA</blockName>
+      <iconName>roadmap</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779479224450-esdwdttyh</odePageId>
+          <odeBlockId>block-1779479542002-c1o5e955p</odeBlockId>
+          <odeIdeviceId>idevice-1779479541997-eht59wqh5</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Podemos ver como se van a distribuir y en que momentos se van a realizar cada una de las tareas de la SdA a través del siguiente enlace:</p>
+<p>    <a href="https://www.tiki-toki.com/timeline/entry/2246772/SdA-Optimizacin-de-Funciones/" title="LÍNEA TEMPORAL" target="_blank" rel="noopener">https://www.tiki-toki.com/timeline/entry/2246772/SdA-Optimizacin-de-Funciones/</a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779479541997-eht59wqh5","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Podemos ver como se van a distribuir y en que momentos se van a realizar cada una de las tareas de la SdA a través del siguiente enlace:</p>\n<p>    <a href=\"https://www.tiki-toki.com/timeline/entry/2246772/SdA-Optimizacin-de-Funciones/\" title=\"LÍNEA TEMPORAL\" target=\"_blank\" rel=\"noopener\">https://www.tiki-toki.com/timeline/entry/2246772/SdA-Optimizacin-de-Funciones/</a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779481777705-082t8g8r0</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>CURACIÓN DE CONTENIDO</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CURACIÓN DE CONTENIDO</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779481777705-082t8g8r0</odePageId>
+      <odeBlockId>block-1779481781524-nyc1ybdtg</odeBlockId>
+      <blockName>MATERIALES QUE VAMOS A USAR</blockName>
+      <iconName>book</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779481777705-082t8g8r0</odePageId>
+          <odeBlockId>block-1779481781524-nyc1ybdtg</odeBlockId>
+          <odeIdeviceId>idevice-1779481781521-383psrwb5</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="padlet-embed" style="border: 1px solid rgba(0,0,0,0.1); border-radius: 2px; box-sizing: border-box; overflow: hidden; position: relative; width: 100%; background: #F4F4F4;">
+<p style="padding: 0; margin: 0;"><iframe width="100" height="608" style="width: 100%; height: 608px; display: block; padding: 0; margin: 0;" src="https://padlet.com/embed/kpmxwg3z5fviykul" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" data-mce-fragment="1"></iframe></p>
+</div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779481781521-383psrwb5","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"padlet-embed\" style=\"border: 1px solid rgba(0,0,0,0.1); border-radius: 2px; box-sizing: border-box; overflow: hidden; position: relative; width: 100%; background: #F4F4F4;\">\n<p style=\"padding: 0; margin: 0;\"><iframe width=\"100\" height=\"608\" style=\"width: 100%; height: 608px; display: block; padding: 0; margin: 0;\" src=\"https://padlet.com/embed/kpmxwg3z5fviykul\" frameborder=\"0\" allow=\"camera;microphone;geolocation;display-capture;clipboard-write\" data-mce-fragment=\"1\"></iframe></p>\n</div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1779481777705-082t8g8r0</odePageId>
+      <odeBlockId>block-1779481981122-mf96zm16x</odeBlockId>
+      <blockName>APLICACIONES NECESARIAS</blockName>
+      <iconName>info</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779481777705-082t8g8r0</odePageId>
+          <odeBlockId>block-1779481981122-mf96zm16x</odeBlockId>
+          <odeIdeviceId>idevice-1779481981116-u64ujh3uu</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Las aplicaciones que los alumnos pueden usar y las webs que pueden consultar para obtener información y realizar el producto final las pueden encontrar en el siguiente enlace:</p>
+<p><a href="https://www.symbaloo.com/shared/AAAABkUthmsAA42ADtNS5A==" title="Aplicaciones y recursos">https://www.symbaloo.com/shared/AAAABkUthmsAA42ADtNS5A==</a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779481981116-u64ujh3uu","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Las aplicaciones que los alumnos pueden usar y las webs que pueden consultar para obtener información y realizar el producto final las pueden encontrar en el siguiente enlace:</p>\n<p><a href=\"https://www.symbaloo.com/shared/AAAABkUthmsAA42ADtNS5A==\" title=\"Aplicaciones y recursos\">https://www.symbaloo.com/shared/AAAABkUthmsAA42ADtNS5A==</a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779482984149-gojw258dk</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>CRITERIOS DE EVALUACIÓN</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRITERIOS DE EVALUACIÓN</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779482984149-gojw258dk</odePageId>
+      <odeBlockId>block-1779483011172-horvx9gq6</odeBlockId>
+      <blockName>¿CON QUÉ VAMOS A EVALUAR?</blockName>
+      <iconName>think</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779482984149-gojw258dk</odePageId>
+          <odeBlockId>block-1779483011172-horvx9gq6</odeBlockId>
+          <odeIdeviceId>idevice-1779483011172-sivjsec1o</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Añadimos los criterios de evaluación de las actividades en el siguiente enlace</p>
+<p>    <a href="https://docs.google.com/document/d/1cop12x5hME1IYIrLez0O0nZN_e-Xrqob2GUNzB2kYOE/edit?usp=sharing" title="Criterios de evaluación">https://docs.google.com/document/d/1cop12x5hME1IYIrLez0O0nZN_e-Xrqob2GUNzB2kYOE/edit?usp=sharing</a></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779483011172-sivjsec1o","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Añadimos los criterios de evaluación de las actividades en el siguiente enlace</p>\n<p>    <a href=\"https://docs.google.com/document/d/1cop12x5hME1IYIrLez0O0nZN_e-Xrqob2GUNzB2kYOE/edit?usp=sharing\" title=\"Criterios de evaluación\">https://docs.google.com/document/d/1cop12x5hME1IYIrLez0O0nZN_e-Xrqob2GUNzB2kYOE/edit?usp=sharing</a></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779483318578-54xu55qnq</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>INSTRUMENTOS DE EVALUACIÓN</pageName>
+  <odeNavStructureOrder>8</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>INSTRUMENTOS DE EVALUACIÓN</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779483318578-54xu55qnq</odePageId>
+      <odeBlockId>block-1779483322331-nfeylppf4</odeBlockId>
+      <blockName>¿CÓMO VAMOS A EVALUAR?</blockName>
+      <iconName>experiment</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779483318578-54xu55qnq</odePageId>
+          <odeBlockId>block-1779483322331-nfeylppf4</odeBlockId>
+          <odeIdeviceId>idevice-1779483322326-jetxj2iqr</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><embed width="600" height="300" src="{{context_path}}/content/resources/Intrumentos de evaluación.pdf" type="application/pdf"></embed></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779483322326-jetxj2iqr","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/Intrumentos de evaluación.pdf\" type=\"application/pdf\"></embed></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779485074529-stvvv2qpl</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>GUIA DIDÁCTICA</pageName>
+  <odeNavStructureOrder>9</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>GUIA DIDÁCTICA</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779485074529-stvvv2qpl</odePageId>
+      <odeBlockId>block-1779485079518-qc343taj5</odeBlockId>
+      <blockName>GUIA</blockName>
+      <iconName>diary_alt</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779485074529-stvvv2qpl</odePageId>
+          <odeBlockId>block-1779485079518-qc343taj5</odeBlockId>
+          <odeIdeviceId>idevice-1779485079513-3o7md7jx1</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><embed width="600" height="300" src="{{context_path}}/content/resources/Guia Didactica Sd A Matematicas Ii Optimizacion.pdf" type="application/pdf"></embed></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779485079513-3o7md7jx1","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><embed width=\"600\" height=\"300\" src=\"{{context_path}}/content/resources/Guia Didactica Sd A Matematicas Ii Optimizacion.pdf\" type=\"application/pdf\"></embed></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1779485803643-ztjm6lkl1</odePageId>
+  <odeParentPageId>377e6ffd-1543-4bf4-9f16-307cdf3f5588</odeParentPageId>
+  <pageName>CRÉDITOS</pageName>
+  <odeNavStructureOrder>10</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>CRÉDITOS</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1779485803643-ztjm6lkl1</odePageId>
+      <odeBlockId>block-1779485809614-bcgr99yzc</odeBlockId>
+      <blockName>CRÉDITOS</blockName>
+      <iconName>sport</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1779485803643-ztjm6lkl1</odePageId>
+          <odeBlockId>block-1779485809614-bcgr99yzc</odeBlockId>
+          <odeIdeviceId>idevice-1779485809609-ckqyfdkss</odeIdeviceId>
+          <odeIdeviceTypeName>download-source-file</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-download-package-instructions"><table class="exe-table exe-package-info"><caption>Información general sobre este recurso educativo</caption>
+<tbody>
+<tr>
+<th>Título</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-title">OPTIMIZACIÓN DE FUNCIONES</span></td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-description">-</span></td>
+</tr>
+<tr>
+<th>Autoría</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-author">MANUEL LÓPEZ RODRÍGUEZ</span></td>
+</tr>
+<tr>
+<th>Licencia</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-license">creative commons: attribution - share alike 4.0</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Este contenido fue creado con <a href="https://exelearning.net/">eXeLearning</a>, el editor libre y de fuente abierta diseñado para crear recursos educativos.</p></div><p class="exe-download-package-link"><a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#107275;color:#ffffff;">Descargar el archivo .elpx</a></p>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
